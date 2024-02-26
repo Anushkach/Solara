@@ -7,5 +7,8 @@ def Page():
 
     solara.ProgressLinear(value=70,
                           color='green',
-                          style={"height":"20px"},
+                          style={"width":"600px",
+                                 "height":"20px",
+                                 "background-color":"orange",
+                                 "border-radius":"5px"},
                           classes=["class1","class2","class3"])
